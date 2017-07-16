@@ -1,0 +1,58 @@
+select_chromecast:
+  sequence:
+    - service: broadlink.send_packet_192_168_8_101
+      data:
+        packet:
+          - "JgCIAAABJZUQFRAUFRARFBETFRAUERETFDcQORA5FTUUNRE5EzcUNREUEDkRFBE4ERQRFBQREBUQOREUETgRFBE5EDkVNRA5EQAFHwABJUsQAAxNAAEoRxUADEkAASdJEQAMTAABJkoRAAxNAAEoRxUADEkAASRMEgAMSwABJUoRAAxNAAElShQADQU="
+
+select_kodi:
+  sequence:
+    - service: broadlink.send_packet_192_168_8_101
+      data:
+        packet:
+          - "JgCYAAABJZQRFBEUERQQFRISExIRFBETETkRORI3EzcSNxE4FDcROBEUERMSExI3ExITEhEUExISNxM3EzYTEhE5ETgRORI3EwAFHQABJkkSAAxMAAEmShIADEsAASVLEgAMSwABJ0kRAAxNAAElShQADEoAASZKEQAMTAABJ0kRAAxNAAEmSRMADEsAASRMEgAMSwABJkgTAA0F"
+
+select_tv:
+  sequence:
+    - service: broadlink.send_packet_192_168_8_101
+      data:
+        packet:
+          - "JgCYAAABJpMRFBMSEBUQFBQREhMRExMSETkSOBA5ETgUNhI3ETkRORISExIROBITEhMRFBEUEBUQORE4ExISNxI4ETkQORM3EwAFHQABJEwSAAxLAAEoSBEADE0AASdIEgAMTAABJUsTAAxKAAEoSBEADE0AASdJFAAMSgABJEwTAAxKAAEmShEADE0AASZJFAAMSgABJUsTAA0F"
+
+vtv:
+  sequence:
+    - service: broadlink.send_packet_192_168_8_101
+      data:
+        packet:
+          - "JgDYAB4aHRoeGjkaHhodNjk2OTY5Nh4aHQADUB4aHRsdGjkaHhodNjk2OjU6NR4aHQADUR0aHhodGzkaHRoeNjk2OTY5Nh0aHgADUB4aHRoeGjkaHhodNjk2OTY5Nh4aHQADUR0aHhodGjoaHRoeNTo2OTY5Nh0aHgADUB4aHRoeGjkaHhodNjk2OTY5Nh4aHQADUR0aHhodGjoaHRoeNjk2OTY5Nh0aHgADUB4aHRoeGjkaHhodNjk2OTY6NR4aHQADUR0bHRoeGjkaHRsdNjk2OTY5Nh4aHQANBQ=="
+    - service: broadlink.send_packet_192_168_8_101
+      data:
+        packet:
+          - "JgDYAB4aHRoeGjkaHhodNjk2OTY5Nh4aHQADUB4aHRsdGjkaHhodNjk2OjU6NR4aHQADUR0aHhodGzkaHRoeNjk2OTY5Nh0aHgADUB4aHRoeGjkaHhodNjk2OTY5Nh4aHQADUR0aHhodGjoaHRoeNTo2OTY5Nh0aHgADUB4aHRoeGjkaHhodNjk2OTY5Nh4aHQADUR0aHhodGjoaHRoeNjk2OTY5Nh0aHgADUB4aHRoeGjkaHhodNjk2OTY6NR4aHQADUR0bHRoeGjkaHRsdNjk2OTY5Nh4aHQANBQ=="
+    - service: broadlink.send_packet_192_168_8_101
+      data:
+        packet:
+          - "JgAIAR4aHRsdGjkaHhodNjk2OjUeGjk2HQADUR0aHhodGjoaHRoeNjk2OTYdGjk2HgADUB4aHRoeGjkaHhodNjk2OTYeGjk2HQADUR0aHhodGzkaHRoeNjk2OTYdGjo1HgADUB4aHRsdGjkaHhodNjk2OTYeGjk2HQADUR0bHRodGzkaHRoeNjk2OTYdGzk2HQADUR0aHhodGjkbHRodNjo1OjYdGjk2HgADUB4aHRoeGjkaHhodNjk2OTYeGjk2HQADUR0aHhodGzkaHRoeNjk2OTYdGjo2HQADUB4aHRsdGjkbHRodNjo1OjUeGjk2HgADUB4aHRoeGjkaHRsdNjk2OTYeGjk2HQANBQ=="
+
+football:
+  sequence:
+    - service: broadlink.send_packet_192_168_8_101
+      data:
+        packet:
+          - "JgCYAAABJpMRFBMSEBUQFBQREhMRExMSETkSOBA5ETgUNhI3ETkRORISExIROBITEhMRFBEUEBUQORE4ExISNxI4ETkQORM3EwAFHQABJEwSAAxLAAEoSBEADE0AASdIEgAMTAABJUsTAAxKAAEoSBEADE0AASdJFAAMSgABJEwTAAxKAAEmShEADE0AASZJFAAMSgABJUsTAA0F"
+    - service: broadlink.send_packet_192_168_8_101
+      data:
+        packet:
+          - "JgCMAJWUEDoTNhI4ERIVEhMSExISExE4FDYUNhMSERQTEhMSEBUUERM3ExISEhITExIQFRQREzcTEhU1EzcUNRE5EjgSOFUABcSXkhM3EjgRORMSEhMRFBAUExISOBQ2EjgSExMSExIQFRITDxUTNRMUFRASExAVEhMTEhA6ERQQORI4EzcTNxY0FDYXAA0FAAAAAAAAAAAAAAAA"
+    - service: broadlink.send_packet_192_168_8_101
+      data:
+        packet:
+          - "JgDYAB4aHRoeGjkaHhodNjk2OTY5Nh4aHQADUB4aHRsdGjkaHhodNjk2OjU6NR4aHQADUR0aHhodGzkaHRoeNjk2OTY5Nh0aHgADUB4aHRoeGjkaHhodNjk2OTY5Nh4aHQADUR0aHhodGjoaHRoeNTo2OTY5Nh0aHgADUB4aHRoeGjkaHhodNjk2OTY5Nh4aHQADUR0aHhodGjoaHRoeNjk2OTY5Nh0aHgADUB4aHRoeGjkaHhodNjk2OTY6NR4aHQADUR0bHRoeGjkaHRsdNjk2OTY5Nh4aHQANBQ=="
+    - service: broadlink.send_packet_192_168_8_101
+      data:
+        packet:
+          - "JgDYAB4aHRoeGjkaHhodNjk2OTY5Nh4aHQADUB4aHRsdGjkaHhodNjk2OjU6NR4aHQADUR0aHhodGzkaHRoeNjk2OTY5Nh0aHgADUB4aHRoeGjkaHhodNjk2OTY5Nh4aHQADUR0aHhodGjoaHRoeNTo2OTY5Nh0aHgADUB4aHRoeGjkaHhodNjk2OTY5Nh4aHQADUR0aHhodGjoaHRoeNjk2OTY5Nh0aHgADUB4aHRoeGjkaHhodNjk2OTY6NR4aHQADUR0bHRoeGjkaHRsdNjk2OTY5Nh4aHQANBQ=="
+    - service: broadlink.send_packet_192_168_8_101
+      data:
+        packet: 
+          - "JgAIAR4aHRsdGjkaHhodNjk2OjUeGjk2HQADUR0aHhodGjoaHRoeNjk2OTYdGjk2HgADUB4aHRoeGjkaHhodNjk2OTYeGjk2HQADUR0aHhodGzkaHRoeNjk2OTYdGjo1HgADUB4aHRsdGjkaHhodNjk2OTYeGjk2HQADUR0bHRodGzkaHRoeNjk2OTYdGzk2HQADUR0aHhodGjkbHRodNjo1OjYdGjk2HgADUB4aHRoeGjkaHhodNjk2OTYeGjk2HQADUR0aHhodGzkaHRoeNjk2OTYdGjo2HQADUB4aHRsdGjkbHRodNjo1OjUeGjk2HgADUB4aHRoeGjkaHRsdNjk2OTYeGjk2HQANBQ=="
