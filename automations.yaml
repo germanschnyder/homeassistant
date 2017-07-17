@@ -1,0 +1,34 @@
+  - alias: Select Cable
+    trigger:
+      platform: state
+      entity_id: input_select.tv_input_preset
+      to: "Cable"
+    action:
+      service: script.select_tv
+      #service: broadlink.send_packet_192_168_8_101
+      #data:
+      #  packet:
+      #    - "JgCYAAABJpMRFBMSEBUQFBQREhMRExMSETkSOBA5ETgUNhI3ETkRORISExIROBITEhMRFBEUEBUQORE4ExISNxI4ETkQORM3EwAFHQABJEwSAAxLAAEoSBEADE0AASdIEgAMTAABJUsTAAxKAAEoSBEADE0AASdJFAAMSgABJEwTAAxKAAEmShEADE0AASZJFAAMSgABJUsTAA0F"
+  
+  - alias: Select Kodi
+    trigger:
+      platform: state
+      entity_id: input_select.tv_input_preset
+      to: "Kodi"
+    action:
+      service: script.select_kodi
+      #service: broadlink.send_packet_192_168_8_101
+      #data:
+      #  packet:
+      #    - "JgCYAAABJZQRFBEUERQQFRISExIRFBETETkRORI3EzcSNxE4FDcROBEUERMSExI3ExITEhEUExISNxM3EzYTEhE5ETgRORI3EwAFHQABJkkSAAxMAAEmShIADEsAASVLEgAMSwABJ0kRAAxNAAElShQADEoAASZKEQAMTAABJ0kRAAxNAAEmSRMADEsAASRMEgAMSwABJkgTAA0F"
+  - alias: Select Chromecast
+    trigger:
+       platform: state
+       entity_id: input_select.tv_input_preset
+       to: "Chromecast"
+    action:
+       service: script.select_chromecast
+       #service: broadlink.send_packet_192_168_8_101
+       #data:
+       #  packet:
+       #    - "JgCIAAABJZUQFRAUFRARFBETFRAUERETFDcQORA5FTUUNRE5EzcUNREUEDkRFBE4ERQRFBQREBUQOREUETgRFBE5EDkVNRA5EQAFHwABJUsQAAxNAAEoRxUADEkAASdJEQAMTAABJkoRAAxNAAEoRxUADEkAASRMEgAMSwABJUoRAAxNAAElShQADQU="

@@ -1,4 +1,5 @@
 tv_input_preset:
+  name: TV Input
   options:
     - Cable
     - Kodi

@@ -1,0 +1,52 @@
+default_view:
+  view: yes
+  icon: mdi:home 
+  entities:
+    - device_tracker.homeassistant_oneplus3t
+    - sun.sun
+    - group.sensors
+    - group.media
+    - group.switches
+
+switches:
+  name: Switches
+  entities:
+    - switch.tele_living
+    - input_select.tv_input_preset
+
+sensors:
+  name: Sensors
+  entities:
+    - sensor.calories
+    - sensor.disk_use_home
+    - sensor.ram_free
+    - sensor.resting_heart_rate
+    - sensor.yr_symbol
+
+media:
+  name: Media
+  #view: yes
+  entities:
+    - media_player.google_home
+    - media_player.speakers
+    - media_player.tv
+
+automations:
+  name: Automations
+  view: yes
+  entities:
+    #- group.all_automations
+    - automation.select_cable
+    - automation.select_kodi
+    - automation.select_chromecast
+scripts:
+  name: Scripts
+  view: yes
+  entities:
+    #- group.all_scripts
+    - script.select_tv
+    - script.select_chromecast
+    - script.select_kodi
+    - script.vtv
+    - script.football
+

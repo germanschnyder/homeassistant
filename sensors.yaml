@@ -9,5 +9,4 @@
 - platform: fitbit
   monitored_resources:
     - activities/calories
-    - activities/caloriesBMR
     - activities/heart
