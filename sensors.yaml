@@ -1,0 +1,13 @@
+- platform: systemmonitor
+  resources:
+    - type: disk_use_percent
+      arg: /home
+    - type: memory_free
+
+- platform: yr
+
+- platform: fitbit
+  monitored_resources:
+    - activities/calories
+    - activities/caloriesBMR
+    - activities/heart

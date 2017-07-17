@@ -48,12 +48,15 @@ logbook:
 sun:
 
 # Weather Prediction
-sensor:
-  platform: yr
+sensor: !include sensors.yaml
+#  platform: yr
 
 # Text to speech
 tts:
   platform: google
+
+
+mqtt:
 
 ifttt: !include ifttt.yaml
 group: !include groups.yaml
@@ -61,3 +64,5 @@ automation: !include automations.yaml
 script: !include scripts.yaml
 switch: !include switches.yaml
 device_tracker: !include devices.yaml
+zone: !include zones.yaml
+input_select: !include input_selects.yaml

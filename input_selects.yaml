@@ -1,0 +1,5 @@
+tv_input_preset:
+  options:
+    - Cable
+    - Kodi
+    - Chromecast
