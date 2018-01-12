@@ -65,3 +65,7 @@ switch: !include switches.yaml
 device_tracker: !include devices.yaml
 zone: !include zones.yaml
 input_select: !include input_selects.yaml
+
+
+logger:
+   default: warning
